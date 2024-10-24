@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <title>React App</title>
+    
+  </head>
+  <body>
+    
+   
+    <div id="root"></div>
+ 
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">
+        <div class="mx-4">
+          <img  src="./logo.jpg" width="50px" height="50px" />
+
+        </div>
+        
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse p-4" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          
+        </ul>
+      </div>
+    </nav>
+
+    <!-- showcase -->
+<section class="bg-dark text-light p-5 text-center text-sm-start">
+
+  <div class="container">
+      <div class="d-sm-flex align-items-center justify-content-between"> 
+          <div>
+              <h1>Stay Alert! 
+                  <span class="text-warning">Stay Secured!</span>
+                  </h1>
+
+                  <p class="lead">
+                    Security You Can See, Trust You Can Feel.
+
+                  </p>
+
+                  <button 
+                  data-bs-toggle="modal" 
+                  data-bs-target="#enroll" 
+                  class="btn btn-primary btn-lg my-2">Get Started
+              </button>
+          </div>
+
+          <img class="img-fluid w-50 px-5 d-none d-sm-block"  src="https://images.pexels.com/photos/96612/pexels-photo-96612.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+      </div>
+
+  </div>
+
+</section >
+
+
+<section class="bg-light text-dark p-5  text-center  text-sm-start">
+  <div class="d-flex justify-content-center align-items-center" >
+    <span class="text-center mb-4" style="font-size: 24px;">Our Services</span>
+</div>
+
+
+  <div class="card-group mt-4">
+    <div class="card">
+      <img class="card-img-top" src="https://th.bing.com/th/id/OIP.veXI2yxEZe5oDauTiAnUFAHaFj?w=591&h=443&rs=1&pid=ImgDetMain" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title text-danger">IP PHONES INSTALLATION</h5>
+        <p class="card-text">Are you ready to elevate your business's communication capabilities? Look no further! Our professional IP phone installation service ensures seamless integration and optimal performance for your organization.</p>
+        
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="https://m.media-amazon.com/images/I/718MUv662JS.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title text-danger">VIDEO INTERCOM INSTALLATION</h5>
+        <p class="card-text">
+          Upgrade your security with our professional video intercom installation service. Enhance your safety by monitoring and communicating with visitors before granting access. Our skilled technicians ensure a smooth installation process with minimal disruption,
+           using top-of-the-line equipment that offers clear video and audio communication.
+
+
+        </p>
+       
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="https://media.istockphoto.com/id/1276649561/photo/a-fiber-optic-pigtail-arrangement-in-an-odf-tray.jpg?s=612x612&w=0&k=20&c=fc-9NSSSVs63r5idX6b2SFFqB86opVdZulpD3up2qpw=" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title text-danger">FIBRE OPTIC CABLING & SPLICING</h5>
+        <p class="card-text">
+          Elevate your connectivity with our expert fiber optics and splicing services. We ensure seamless installation and maintenance, providing high-speed internet and reliable connections for your home or business. Our skilled technicians use state-of-the-art equipment to deliver top-quality splicing, ensuring minimal signal loss and maximum performance. From installation to ongoing support, we are committed to keeping you connected
+        </p>
+        
+      </div>
+    </div>
+  </div>
+
+  
+</section >
+
+<!-- continue service-->
+
+<section class="mt-0">
+  <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://butterflymx.com/wp-content/uploads/2022/11/CCTV-Installation-Guide-social.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>CCTV Camera Instalation</h5>
+          <p>Perfect installation with quality product for your home, organization and office.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://www.ovt.com/wp-content/uploads/2021/12/OmniVision_Applications_Security_Use-Cases_CommercialIndustrialSecurityCameras_3.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>CCTV Camera for Industries</h5>
+          <p>CCTV installation for industries.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://images.squarespace-cdn.com/content/v1/60096d6b21350175922f9148/1722239311966-WBPWFJ4QCSIIBZ62B8A3/rules+for+cctv+cameras+in+the+workplace.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>CCTV in the Workplace</h5>
+          <p>Quality cameras for your office and workplace.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  
+</section>
+
+<section class="bg-dark text-light p-5  text-justify text-sm-start">
+<div class="d-flex text-center">
+  <h3>About Us</h3>
+</div>
+
+<span class="text-justify text-sm-start">
+  About Us
+
+Welcome to Esmart System!
+
+At Esmart System, we are dedicated to providing cutting-edge technology solutions to elevate your business and home environments. With a passion for innovation and a commitment to excellence, we specialize in delivering a wide range of services, including IP phone installations, video intercom systems, and fiber optics splicing.
+
+Our Mission
+
+Our mission is to empower our clients with state-of-the-art technology that enhances communication, security, and connectivity. We strive to offer unparalleled service, tailored to meet the unique needs of each customer, ensuring optimal performance and satisfaction.
+
+Who We Are
+
+Founded on the principles of quality, reliability, and customer-centricity, Esmart System has grown into a trusted name in the tech industry. Our team of skilled professionals brings years of expertise and a deep understanding of the latest technological advancements, ensuring that we deliver solutions that are not only innovative but also practical and efficient.
+
+What We Do
+
+IP Phone Installations: Our expert technicians provide seamless IP phone installation services, ensuring clear and reliable communication for your business.
+
+Video Intercom Systems: Enhance your security with our top-notch video intercom systems, allowing you to monitor and communicate with visitors effortlessly.
+
+Fiber Optics and Splicing: Experience high-speed internet and reliable connections with our professional fiber optics and splicing services.
+
+Why Choose Us?
+
+Expertise: Our team is highly skilled and knowledgeable in the latest technologies.
+
+Quality Service: We are committed to delivering the highest quality of service, ensuring customer satisfaction.
+
+Innovative Solutions: We stay ahead of the curve, offering innovative solutions that meet the evolving needs of our clients.
+
+Customer Support: From installation to maintenance, we provide comprehensive support to keep your systems running smoothly.
+
+At Esmart System, we are not just service providers; we are your partners in achieving technological excellence. Join us on a journey to a smarter, more connected future.
+
+Contact us today to learn more about how we can help you elevate your technology infrastructure.
+</span>
+
+</section>
+
+<!-- edit here -->
+
+
+<section class="mt-4">
+  <div class="row row-cols-1 row-cols-md-3 g-4 p-5" >
+    <div class="col ">
+      <div class="card">
+        <img src="https://media.licdn.com/dms/image/v2/C4D22AQEhQPVl71465w/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1662971518302?e=2147483647&v=beta&t=SkLBa0lmGlpUpS102gVe6oPPthtoSFMcwFtp00lqBkg" height="250px" width="400px" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="https://ameerasmart.com/assets/img/server_maintenance/server_upgrade/00.png" height="250px" class="card-img-top " alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="https://cdn.prod.website-files.com/5dcc7f8c449e597be23356e0/657881cbd670f8d90a07af19_software-engineer-vs-web-developer-blog-hero-image.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</section>
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+   
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+  </body>
+</html>
